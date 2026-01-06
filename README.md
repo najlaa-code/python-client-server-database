@@ -1,13 +1,3 @@
-# Python Customer Database Client-Server System
-
-A simple TCP-based client-server application for managing customer records with real-time validation and persistent storage.
-
-## Short Description
-
-This project implements a customer database management system using Python socket programming. The server maintains a file-based database of customer records (name, age, address, phone) while the client provides an interactive menu interface. The system includes comprehensive input validation, error handling, and supports CRUD operations (Create, Read, Update, Delete) over a TCP connection.
-
----
-
 ## README
 
 ### Overview
@@ -152,22 +142,6 @@ Server response: Alice|28|456 Oak Ave|514-9999 added to database
 - **Concurrency**: Single-threaded, sequential client handling
 - **Data Structure**: In-memory dictionary with case-insensitive keys
 
-### Limitations
-
-- Single client connection at a time
-- No authentication or encryption
-- Database changes are in-memory only (not written back to file)
-- Windows-specific screen clearing (`cls` command)
-
-### Future Enhancements
-
-- Multi-client support using threading
-- Persistent database updates
-- Cross-platform compatibility
-- SSL/TLS encryption
-- User authentication
-- GUI interface
-
 ### Troubleshooting
 
 **Connection Refused**
@@ -180,10 +154,7 @@ Server response: Alice|28|456 Oak Ave|514-9999 added to database
 - Verify file format (pipe-separated fields)
 - Review server console for read errors
 
-### License
-
-Educational project - free to use and modify.
 
 ### Author
 
-Created for COMP 348 - Programming Languages coursework.
+Najlaa Achouhal
